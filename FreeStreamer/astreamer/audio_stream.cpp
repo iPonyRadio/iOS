@@ -12,7 +12,7 @@
  * performed for the MIME type. This allows playing more
  * streams:
  */
-//#define AS_RELAX_CONTENT_TYPE_CHECK 1
+#define AS_RELAX_CONTENT_TYPE_CHECK 1
 
 //#define AS_DEBUG 1
 
