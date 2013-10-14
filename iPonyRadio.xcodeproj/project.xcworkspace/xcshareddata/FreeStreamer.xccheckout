@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>99057E90-8F92-4858-B2D6-6BAF0347343E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FreeStreamer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52C1CC68-58E7-4A15-AE97-4FCF54805D5B</key>
+		<string>https://github.com/iPonyRadio/iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FreeStreamer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52C1CC68-58E7-4A15-AE97-4FCF54805D5B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iPonyRadio/iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52C1CC68-58E7-4A15-AE97-4FCF54805D5B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52C1CC68-58E7-4A15-AE97-4FCF54805D5B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

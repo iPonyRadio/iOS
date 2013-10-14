@@ -34,7 +34,7 @@
     __weak FSPlaylistViewController *weakSelf = self;
     
     _request = [[FSParsePlaylistFeedRequest alloc] init];
-    _request.url = @"http://iPonyRadio.tk/ststions.xml";
+    _request.url = @"http://iPonyRadio.tk/stations.xml";
     _request.onCompletion = ^() {
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         
