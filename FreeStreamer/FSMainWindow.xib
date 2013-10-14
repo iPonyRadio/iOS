@@ -150,7 +150,6 @@
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" red="0.80076002040000005" green="0.80076002040000005" blue="0.80076002040000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
-
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="9" minimumFontSize="10" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="192" translatesAutoresizingMaskIntoConstraints="NO" id="9DL-3I-hdz">
                                                 <rect key="frame" x="10" y="38" width="192" height="20"/>
@@ -170,7 +169,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     </view>
                                     <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="48">
-                                        <rect key="frame" x="10" y="1229" width="300" height="34"/>
+                                        <rect key="frame" x="6" y="1150" width="300" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="296" id="75"/>
@@ -202,7 +201,6 @@
                 <outlet property="pauseButton" destination="28" id="412"/>
                 <outlet property="playButton" destination="27" id="411"/>
                 <outlet property="progressSlider" destination="48" id="49"/>
-
             </connections>
         </viewController>
         <customObject id="43" customClass="FSAudioController"/>
