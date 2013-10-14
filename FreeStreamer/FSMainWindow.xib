@@ -150,9 +150,7 @@
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" red="0.80076002040000005" green="0.80076002040000005" blue="0.80076002040000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
-                                                <connections>
-                                                    <action selector="song:" destination="300" eventType="touchUpInside" id="413"/>
-                                                </connections>
+
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="9" minimumFontSize="10" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="192" translatesAutoresizingMaskIntoConstraints="NO" id="9DL-3I-hdz">
                                                 <rect key="frame" x="10" y="38" width="192" height="20"/>
@@ -204,7 +202,7 @@
                 <outlet property="pauseButton" destination="28" id="412"/>
                 <outlet property="playButton" destination="27" id="411"/>
                 <outlet property="progressSlider" destination="48" id="49"/>
-                <outlet property="statusLabel" destination="300" id="301" />
+
             </connections>
         </viewController>
         <customObject id="43" customClass="FSAudioController"/>
