@@ -5,6 +5,8 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "MMSDK.h"
+#import <CoreLocation/CoreLocation.h>
 
 @class FSDAO;
 @class FSAudioController;
@@ -16,5 +18,6 @@
 
 @property (nonatomic,strong) IBOutlet UIWindow *window;
 @property (nonatomic,strong) IBOutlet UINavigationController *navigationController;
+@property (strong, nonatomic) CLLocationManager *locationManager;
 
 @end

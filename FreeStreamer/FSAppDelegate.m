@@ -16,6 +16,14 @@
 {
     [self.window setRootViewController:self.navigationController];
     [self.window makeKeyAndVisible];
+    
+    [MMSDK initialize]; //Initialize a Millennial Media session
+    
+    //Create a location manager for passing location data for conversion tracking and ad requests
+    self.locationManager = [[CLLocationManager alloc] init];
+    [self.locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+    [self.locationManager startUpdatingLocation];
+    
     return YES;
 }
 

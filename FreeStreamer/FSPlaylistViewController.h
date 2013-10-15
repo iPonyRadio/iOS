@@ -5,6 +5,12 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "MMAdView.h"
+#import "FSAppDelegate.h"
+
+#define MILLENNIAL_IPHONE_AD_VIEW_FRAME CGRectMake(0, 0, 320, 50)
+#define MILLENNIAL_IPAD_AD_VIEW_FRAME CGRectMake(0, 0, 728, 90)
+#define MILLENNIAL_AD_VIEW_FRAME ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? MILLENNIAL_IPAD_AD_VIEW_FRAME : MILLENNIAL_IPHONE_AD_VIEW_FRAME)
 
 @class FSPlayerViewController;
 @class FSParsePlaylistFeedRequest;

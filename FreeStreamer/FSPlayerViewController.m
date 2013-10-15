@@ -52,6 +52,8 @@
     
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     self.navigationController.navigationBarHidden = NO;
+    
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -102,6 +104,24 @@
     
     self.activityIndicator = nil;
     self.statusLabel = nil;
+    
+    //Location Object
+    FSAppDelegate *appDelegate = (FSAppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    //MMRequest Object
+    MMRequest *request = [MMRequest requestWithLocation:appDelegate.locationManager.location];
+    
+    // Replace YOUR_APID with the APID provided to you by Millennial Media
+    MMAdView *banner = [[MMAdView alloc] initWithFrame:MILLENNIAL_AD_VIEW_FRAME apid:@"YOUR_APID"
+                                    rootViewController:self];
+    [self.view addSubview:banner];
+    [banner getAdWithRequest:request onCompletion:^(BOOL success, NSError *error) {
+        if (success) {
+            NSLog(@"BANNER AD REQUEST SUCCEEDED");
+        }
+        else {
+            NSLog(@"BANNER AD REQUEST FAILED WITH ERROR: %@", error); }
+    }];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

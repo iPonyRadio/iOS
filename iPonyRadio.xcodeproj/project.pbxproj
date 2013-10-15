@@ -53,6 +53,18 @@
 		E0B8F3CB180D64BD00E9E98A /* logo144.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3BE180D64BD00E9E98A /* logo144.png */; };
 		E0B8F3CC180D64BD00E9E98A /* logo152.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3BF180D64BD00E9E98A /* logo152.png */; };
 		E0B8F3CD180D64BD00E9E98A /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3C0180D64BD00E9E98A /* logo1024.png */; };
+		E0B8F3CF180D767600E9E98A /* FSMainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3CE180D767600E9E98A /* FSMainWindow-iPad.xib */; };
+		E0B8F3D8180D977900E9E98A /* libMMSDK_5.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3D3180D977900E9E98A /* libMMSDK_5.1.1.a */; };
+		E0B8F3DA180D984D00E9E98A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3D9180D984D00E9E98A /* AdSupport.framework */; };
+		E0B8F3DC180D988D00E9E98A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3DB180D988D00E9E98A /* CoreLocation.framework */; };
+		E0B8F3DE180D98E400E9E98A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3DD180D98E400E9E98A /* MobileCoreServices.framework */; };
+		E0B8F3E0180D990200E9E98A /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3DF180D990200E9E98A /* PassKit.framework */; };
+		E0B8F3E2180D992900E9E98A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3E1180D992900E9E98A /* QuartzCore.framework */; };
+		E0B8F3E4180D994D00E9E98A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3E3180D994D00E9E98A /* Security.framework */; };
+		E0B8F3E6180D995A00E9E98A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3E5180D995A00E9E98A /* Social.framework */; };
+		E0B8F3E8180D999900E9E98A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3E7180D999900E9E98A /* StoreKit.framework */; };
+		E0B8F3EA180D99AE00E9E98A /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3E9180D99AE00E9E98A /* SpeechKit.framework */; };
+		E0B8F3EC180D99CA00E9E98A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B8F3EB180D99CA00E9E98A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +129,22 @@
 		E0B8F3BE180D64BD00E9E98A /* logo144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo144.png; path = ../../../Downloads/iPRLogo/logo144.png; sourceTree = "<group>"; };
 		E0B8F3BF180D64BD00E9E98A /* logo152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo152.png; path = ../../../Downloads/iPRLogo/logo152.png; sourceTree = "<group>"; };
 		E0B8F3C0180D64BD00E9E98A /* logo1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1024.png; path = ../../../Downloads/iPRLogo/logo1024.png; sourceTree = "<group>"; };
+		E0B8F3CE180D767600E9E98A /* FSMainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FSMainWindow-iPad.xib"; sourceTree = "<group>"; };
+		E0B8F3D3180D977900E9E98A /* libMMSDK_5.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMMSDK_5.1.1.a; sourceTree = "<group>"; };
+		E0B8F3D4180D977900E9E98A /* MMAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAdView.h; sourceTree = "<group>"; };
+		E0B8F3D5180D977900E9E98A /* MMInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMInterstitial.h; sourceTree = "<group>"; };
+		E0B8F3D6180D977900E9E98A /* MMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRequest.h; sourceTree = "<group>"; };
+		E0B8F3D7180D977900E9E98A /* MMSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSDK.h; sourceTree = "<group>"; };
+		E0B8F3D9180D984D00E9E98A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E0B8F3DB180D988D00E9E98A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E0B8F3DD180D98E400E9E98A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E0B8F3DF180D990200E9E98A /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		E0B8F3E1180D992900E9E98A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E0B8F3E3180D994D00E9E98A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E0B8F3E5180D995A00E9E98A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E0B8F3E7180D999900E9E98A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E0B8F3E9180D99AE00E9E98A /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = ../../Downloads/iOS_5.1.1_SDK/SpeechKit/SpeechKit.framework; sourceTree = "<group>"; };
+		E0B8F3EB180D99CA00E9E98A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +152,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B8F3EC180D99CA00E9E98A /* SystemConfiguration.framework in Frameworks */,
+				E0B8F3EA180D99AE00E9E98A /* SpeechKit.framework in Frameworks */,
+				E0B8F3E8180D999900E9E98A /* StoreKit.framework in Frameworks */,
+				E0B8F3E6180D995A00E9E98A /* Social.framework in Frameworks */,
+				E0B8F3E4180D994D00E9E98A /* Security.framework in Frameworks */,
+				E0B8F3E2180D992900E9E98A /* QuartzCore.framework in Frameworks */,
+				E0B8F3E0180D990200E9E98A /* PassKit.framework in Frameworks */,
+				E0B8F3DE180D98E400E9E98A /* MobileCoreServices.framework in Frameworks */,
+				E0B8F3DC180D988D00E9E98A /* CoreLocation.framework in Frameworks */,
+				E0B8F3DA180D984D00E9E98A /* AdSupport.framework in Frameworks */,
 				60AA4D1B164A8B160066938A /* libxml2.dylib in Frameworks */,
 				63B6C48A15054E85002654A9 /* MediaPlayer.framework in Frameworks */,
+				E0B8F3D8180D977900E9E98A /* libMMSDK_5.1.1.a in Frameworks */,
 				631DEA8B143BA0F90039CCED /* AudioToolbox.framework in Frameworks */,
 				631DEA83143BA0850039CCED /* CFNetwork.framework in Frameworks */,
 				631DEA81143BA07B0039CCED /* AVFoundation.framework in Frameworks */,
@@ -182,6 +221,7 @@
 		63DEB76B143B9FDE000AF919 = {
 			isa = PBXGroup;
 			children = (
+				E0B8F3D2180D977900E9E98A /* MMSDK */,
 				63DEB780143B9FDE000AF919 /* FreeStreamer */,
 				63DEB779143B9FDE000AF919 /* Frameworks */,
 				63DEB777143B9FDE000AF919 /* Products */,
@@ -199,6 +239,16 @@
 		63DEB779143B9FDE000AF919 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0B8F3EB180D99CA00E9E98A /* SystemConfiguration.framework */,
+				E0B8F3E9180D99AE00E9E98A /* SpeechKit.framework */,
+				E0B8F3E7180D999900E9E98A /* StoreKit.framework */,
+				E0B8F3E5180D995A00E9E98A /* Social.framework */,
+				E0B8F3E3180D994D00E9E98A /* Security.framework */,
+				E0B8F3E1180D992900E9E98A /* QuartzCore.framework */,
+				E0B8F3DF180D990200E9E98A /* PassKit.framework */,
+				E0B8F3DD180D98E400E9E98A /* MobileCoreServices.framework */,
+				E0B8F3DB180D988D00E9E98A /* CoreLocation.framework */,
+				E0B8F3D9180D984D00E9E98A /* AdSupport.framework */,
 				60AA4D1A164A8B160066938A /* libxml2.dylib */,
 				63B6C48915054E85002654A9 /* MediaPlayer.framework */,
 				631DEA8A143BA0F90039CCED /* AudioToolbox.framework */,
@@ -215,6 +265,7 @@
 		63DEB780143B9FDE000AF919 /* FreeStreamer */ = {
 			isa = PBXGroup;
 			children = (
+				E0B8F3CE180D767600E9E98A /* FSMainWindow-iPad.xib */,
 				631DEA60143BA0560039CCED /* astreamer */,
 				631DEA6A143BA0640039CCED /* FSAudioController.h */,
 				631DEA6B143BA0640039CCED /* FSAudioController.m */,
@@ -251,6 +302,18 @@
 				63DEB788143B9FDE000AF919 /* iPonyRadio-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0B8F3D2180D977900E9E98A /* MMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E0B8F3D3180D977900E9E98A /* libMMSDK_5.1.1.a */,
+				E0B8F3D4180D977900E9E98A /* MMAdView.h */,
+				E0B8F3D5180D977900E9E98A /* MMInterstitial.h */,
+				E0B8F3D6180D977900E9E98A /* MMRequest.h */,
+				E0B8F3D7180D977900E9E98A /* MMSDK.h */,
+			);
+			path = MMSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +380,7 @@
 				E0B8F3C3180D64BD00E9E98A /* logo50.png in Resources */,
 				60EB2B8A164A39E300963C37 /* Default.png in Resources */,
 				E0B8F3CB180D64BD00E9E98A /* logo144.png in Resources */,
+				E0B8F3CF180D767600E9E98A /* FSMainWindow-iPad.xib in Resources */,
 				E0B8F3C7180D64BD00E9E98A /* logo76.png in Resources */,
 				E0B8F3CC180D64BD00E9E98A /* logo152.png in Resources */,
 				E0B8F3C8180D64BD00E9E98A /* logo110.png in Resources */,
@@ -440,11 +504,19 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pixel/Downloads/iOS_5.1.1_SDK/SpeechKit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FreeStreamer/iPonyRadio-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "FreeStreamer/iPonyRadio-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pixel/Projects/iOS/MMSDK,
+				);
 				PRODUCT_NAME = iPonyRadio;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -456,11 +528,19 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pixel/Downloads/iOS_5.1.1_SDK/SpeechKit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FreeStreamer/iPonyRadio-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "FreeStreamer/iPonyRadio-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pixel/Projects/iOS/MMSDK,
+				);
 				PRODUCT_NAME = iPonyRadio;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
