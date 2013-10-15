@@ -40,6 +40,19 @@
 		E0B8F3B1180C546C00E9E98A /* bottom-shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3AD180C546C00E9E98A /* bottom-shadow@2x.png */; };
 		E0B8F3B2180C546C00E9E98A /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3AE180C546C00E9E98A /* shadow.png */; };
 		E0B8F3B3180C546C00E9E98A /* shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3AF180C546C00E9E98A /* shadow@2x.png */; };
+		E0B8F3C1180D64BD00E9E98A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3B4180D64BD00E9E98A /* logo.png */; };
+		E0B8F3C2180D64BD00E9E98A /* logo29.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3B5180D64BD00E9E98A /* logo29.png */; };
+		E0B8F3C3180D64BD00E9E98A /* logo50.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3B6180D64BD00E9E98A /* logo50.png */; };
+		E0B8F3C4180D64BD00E9E98A /* logo57.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3B7180D64BD00E9E98A /* logo57.png */; };
+		E0B8F3C5180D64BD00E9E98A /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3B8180D64BD00E9E98A /* logo58.png */; };
+		E0B8F3C6180D64BD00E9E98A /* logo72.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3B9180D64BD00E9E98A /* logo72.png */; };
+		E0B8F3C7180D64BD00E9E98A /* logo76.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3BA180D64BD00E9E98A /* logo76.png */; };
+		E0B8F3C8180D64BD00E9E98A /* logo110.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3BB180D64BD00E9E98A /* logo110.png */; };
+		E0B8F3C9180D64BD00E9E98A /* logo114.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3BC180D64BD00E9E98A /* logo114.png */; };
+		E0B8F3CA180D64BD00E9E98A /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3BD180D64BD00E9E98A /* logo120.png */; };
+		E0B8F3CB180D64BD00E9E98A /* logo144.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3BE180D64BD00E9E98A /* logo144.png */; };
+		E0B8F3CC180D64BD00E9E98A /* logo152.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3BF180D64BD00E9E98A /* logo152.png */; };
+		E0B8F3CD180D64BD00E9E98A /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B8F3C0180D64BD00E9E98A /* logo1024.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +104,19 @@
 		E0B8F3AD180C546C00E9E98A /* bottom-shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bottom-shadow@2x.png"; path = "Assets/Images/bottom-shadow@2x.png"; sourceTree = "<group>"; };
 		E0B8F3AE180C546C00E9E98A /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shadow.png; path = Assets/Images/shadow.png; sourceTree = "<group>"; };
 		E0B8F3AF180C546C00E9E98A /* shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shadow@2x.png"; path = "Assets/Images/shadow@2x.png"; sourceTree = "<group>"; };
+		E0B8F3B4180D64BD00E9E98A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../Downloads/iPRLogo/logo.png; sourceTree = "<group>"; };
+		E0B8F3B5180D64BD00E9E98A /* logo29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo29.png; path = ../../../Downloads/iPRLogo/logo29.png; sourceTree = "<group>"; };
+		E0B8F3B6180D64BD00E9E98A /* logo50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo50.png; path = ../../../Downloads/iPRLogo/logo50.png; sourceTree = "<group>"; };
+		E0B8F3B7180D64BD00E9E98A /* logo57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo57.png; path = ../../../Downloads/iPRLogo/logo57.png; sourceTree = "<group>"; };
+		E0B8F3B8180D64BD00E9E98A /* logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo58.png; path = ../../../Downloads/iPRLogo/logo58.png; sourceTree = "<group>"; };
+		E0B8F3B9180D64BD00E9E98A /* logo72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo72.png; path = ../../../Downloads/iPRLogo/logo72.png; sourceTree = "<group>"; };
+		E0B8F3BA180D64BD00E9E98A /* logo76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo76.png; path = ../../../Downloads/iPRLogo/logo76.png; sourceTree = "<group>"; };
+		E0B8F3BB180D64BD00E9E98A /* logo110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo110.png; path = ../../../Downloads/iPRLogo/logo110.png; sourceTree = "<group>"; };
+		E0B8F3BC180D64BD00E9E98A /* logo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo114.png; path = ../../../Downloads/iPRLogo/logo114.png; sourceTree = "<group>"; };
+		E0B8F3BD180D64BD00E9E98A /* logo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo120.png; path = ../../../Downloads/iPRLogo/logo120.png; sourceTree = "<group>"; };
+		E0B8F3BE180D64BD00E9E98A /* logo144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo144.png; path = ../../../Downloads/iPRLogo/logo144.png; sourceTree = "<group>"; };
+		E0B8F3BF180D64BD00E9E98A /* logo152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo152.png; path = ../../../Downloads/iPRLogo/logo152.png; sourceTree = "<group>"; };
+		E0B8F3C0180D64BD00E9E98A /* logo1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1024.png; path = ../../../Downloads/iPRLogo/logo1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +141,19 @@
 		60EB2B95164A3D6C00963C37 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E0B8F3B4180D64BD00E9E98A /* logo.png */,
+				E0B8F3B5180D64BD00E9E98A /* logo29.png */,
+				E0B8F3B6180D64BD00E9E98A /* logo50.png */,
+				E0B8F3B7180D64BD00E9E98A /* logo57.png */,
+				E0B8F3B8180D64BD00E9E98A /* logo58.png */,
+				E0B8F3B9180D64BD00E9E98A /* logo72.png */,
+				E0B8F3BA180D64BD00E9E98A /* logo76.png */,
+				E0B8F3BB180D64BD00E9E98A /* logo110.png */,
+				E0B8F3BC180D64BD00E9E98A /* logo114.png */,
+				E0B8F3BD180D64BD00E9E98A /* logo120.png */,
+				E0B8F3BE180D64BD00E9E98A /* logo144.png */,
+				E0B8F3BF180D64BD00E9E98A /* logo152.png */,
+				E0B8F3C0180D64BD00E9E98A /* logo1024.png */,
 				E0B8F3AC180C546C00E9E98A /* bottom-shadow.png */,
 				E0B8F3AD180C546C00E9E98A /* bottom-shadow@2x.png */,
 				E0B8F3AE180C546C00E9E98A /* shadow.png */,
@@ -269,10 +308,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B8F3C4180D64BD00E9E98A /* logo57.png in Resources */,
 				63DEB785143B9FDE000AF919 /* InfoPlist.strings in Resources */,
+				E0B8F3C6180D64BD00E9E98A /* logo72.png in Resources */,
+				E0B8F3C9180D64BD00E9E98A /* logo114.png in Resources */,
 				631DEA7B143BA0640039CCED /* FSMainWindow.xib in Resources */,
 				60EB2B89164A39E300963C37 /* Default-568h@2x.png in Resources */,
+				E0B8F3C3180D64BD00E9E98A /* logo50.png in Resources */,
 				60EB2B8A164A39E300963C37 /* Default.png in Resources */,
+				E0B8F3CB180D64BD00E9E98A /* logo144.png in Resources */,
+				E0B8F3C7180D64BD00E9E98A /* logo76.png in Resources */,
+				E0B8F3CC180D64BD00E9E98A /* logo152.png in Resources */,
+				E0B8F3C8180D64BD00E9E98A /* logo110.png in Resources */,
+				E0B8F3C1180D64BD00E9E98A /* logo.png in Resources */,
+				E0B8F3C5180D64BD00E9E98A /* logo58.png in Resources */,
 				60EB2B8B164A39E300963C37 /* Default@2x.png in Resources */,
 				60EB2B98164A3D7500963C37 /* player-bg-bottom.png in Resources */,
 				E0B8F3B3180C546C00E9E98A /* shadow@2x.png in Resources */,
@@ -280,8 +329,11 @@
 				60EB2B99164A3D7500963C37 /* player-top-bg.png in Resources */,
 				60EB2B9C164A3F0300963C37 /* button-pause.png in Resources */,
 				60EB2B9D164A3F0300963C37 /* button-play.png in Resources */,
+				E0B8F3C2180D64BD00E9E98A /* logo29.png in Resources */,
+				E0B8F3CA180D64BD00E9E98A /* logo120.png in Resources */,
 				E0B8F3B1180C546C00E9E98A /* bottom-shadow@2x.png in Resources */,
 				E0B8F3B2180C546C00E9E98A /* shadow.png in Resources */,
+				E0B8F3CD180D64BD00E9E98A /* logo1024.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +446,7 @@
 				INFOPLIST_FILE = "FreeStreamer/iPonyRadio-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = iPonyRadio;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,7 +462,7 @@
 				INFOPLIST_FILE = "FreeStreamer/iPonyRadio-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = iPonyRadio;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
