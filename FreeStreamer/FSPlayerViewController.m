@@ -112,7 +112,7 @@
     MMRequest *request = [MMRequest requestWithLocation:appDelegate.locationManager.location];
     
     // Replace YOUR_APID with the APID provided to you by Millennial Media
-    MMAdView *banner = [[MMAdView alloc] initWithFrame:MILLENNIAL_AD_VIEW_FRAME apid:@"YOUR_APID"
+    MMAdView *banner = [[MMAdView alloc] initWithFrame:MILLENNIAL_AD_VIEW_FRAME apid:@"135293"
                                     rootViewController:self];
     [self.view addSubview:banner];
     [banner getAdWithRequest:request onCompletion:^(BOOL success, NSError *error) {

@@ -517,7 +517,9 @@
 					"$(inherited)",
 					/Users/pixel/Projects/iOS/MMSDK,
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = iPonyRadio;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -541,7 +543,9 @@
 					"$(inherited)",
 					/Users/pixel/Projects/iOS/MMSDK,
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = iPonyRadio;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
