@@ -301,6 +301,30 @@ out:
     self.pauseButton.hidden = YES;
 }
 
+//Make sure we can recieve remote control events
+- (BOOL)canBecomeFirstResponder {
+    return YES;
+}
+
+- (void)remoteControlReceivedWithEvent:(UIEvent *)event {
+        //if it is a remote control event handle it correctly
+    if (event.type == UIEventTypeRemoteControl) {
+        if (event.subtype == UIEventSubtypeRemoteControlPlay) {
+            [self.audioController play];
+        } else if (event.subtype == UIEventSubtypeRemoteControlPause) {
+            [self.audioController pause];
+        } else if (event.subtype == UIEventSubtypeRemoteControlTogglePlayPause) {
+            if (_paused) {
+                [self.audioController play];
+                _paused = NO;
+            } else {
+                [self.audioController pause];
+                _paused = YES;
+            }
+        }
+    }
+}
+
 - (IBAction)seek:(id)sender {
     _seekToPoint = self.progressSlider.value;
     
