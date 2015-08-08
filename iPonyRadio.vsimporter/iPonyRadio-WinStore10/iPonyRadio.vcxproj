@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>iPonyRadio</ProjectName>
+    <RootNamespace>iPonyRadio</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <ProjectGuid>{63DEB775-143B-4B1D-BEEF-9FDE000AF919}</ProjectGuid>
+    <WINOBJC_SDK_ROOT>C:\Users\pixel\Desktop\winobjc\bin/..</WINOBJC_SDK_ROOT>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <TargetName>iPonyRadio</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <TargetName>iPonyRadio</TargetName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="../iPonyRadio-Headers-WinStore10/iPonyRadio-Headers.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <PackageCertificateKeyFile>iPonyRadio_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies);SystemConfiguration.lib;SpeechKit.lib;StoreKit.lib;Social.lib;Security.lib;QuartzCore.lib;PassKit.lib;MobileCoreServices.lib;CoreLocation.lib;AdSupport.lib;libxml2.lib;MediaPlayer.lib;libMMSDK_5.1.1.lib;AudioToolbox.lib;CFNetwork.lib;AVFoundation.lib;UIKit.lib;Foundation.lib;CoreGraphics.lib</AdditionalDependencies>
+    </Link>
+    <ClangCompile>
+      <HeaderMap>Project</HeaderMap>
+      <IncludePaths>..\..\..\..\..\Desktop\winobjc\usr\include\libxml2</IncludePaths>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>Disabled</OptimizationLevel>
+      <PrefixHeader>..\..\FreeStreamer\iPonyRadio-Prefix.pch</PrefixHeader>
+      <PreprocessorDefinitions>DEBUG=1</PreprocessorDefinitions>
+    </ClangCompile>
+    <SBInfoPlistCopy>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </SBInfoPlistCopy>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies);SystemConfiguration.lib;SpeechKit.lib;StoreKit.lib;Social.lib;Security.lib;QuartzCore.lib;PassKit.lib;MobileCoreServices.lib;CoreLocation.lib;AdSupport.lib;libxml2.lib;MediaPlayer.lib;libMMSDK_5.1.1.lib;AudioToolbox.lib;CFNetwork.lib;AVFoundation.lib;UIKit.lib;Foundation.lib;CoreGraphics.lib</AdditionalDependencies>
+    </Link>
+    <ClangCompile>
+      <HeaderMap>Project</HeaderMap>
+      <IncludePaths>..\..\..\..\..\Desktop\winobjc\usr\include\libxml2</IncludePaths>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>MinSpace</OptimizationLevel>
+      <OtherCFlags>-DNS_BLOCK_ASSERTIONS=1</OtherCFlags>
+      <OtherCPlusPlusFlags>-DNS_BLOCK_ASSERTIONS=1</OtherCPlusPlusFlags>
+      <PrefixHeader>..\..\FreeStreamer\iPonyRadio-Prefix.pch</PrefixHeader>
+    </ClangCompile>
+    <SBInfoPlistCopy>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </SBInfoPlistCopy>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="iPonyRadio_TemporaryKey.pfx" />
+    <Image Include="Assets\LockScreenLogo.scale-200.png" />
+    <Image Include="Assets\SplashScreen.scale-200.png" />
+    <Image Include="Assets\Square150x150Logo.scale-200.png" />
+    <Image Include="Assets\Square44x44Logo.scale-200.png" />
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Image Include="Assets\StoreLogo.png" />
+    <Image Include="Assets\Wide310x150Logo.scale-200.png" />
+    <ClangCompile Include="..\..\FreeStreamer\main.m" />
+    <ClangCompile Include="..\..\FreeStreamer\FSAppDelegate.m" />
+    <ClangCompile Include="..\..\FreeStreamer\astreamer\audio_queue.cpp">
+      <AdditionalOptions>$(AdditionalOptions) -fno-objc-arc</AdditionalOptions>
+      <CompileAs>CompileAsObjCpp</CompileAs>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FreeStreamer\astreamer\audio_stream.cpp">
+      <AdditionalOptions>$(AdditionalOptions) -fno-objc-arc</AdditionalOptions>
+      <CompileAs>CompileAsObjCpp</CompileAs>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FreeStreamer\astreamer\http_stream.cpp">
+      <AdditionalOptions>$(AdditionalOptions) -fno-objc-arc</AdditionalOptions>
+      <CompileAs>CompileAsObjCpp</CompileAs>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FreeStreamer\FSAudioController.m" />
+    <ClangCompile Include="..\..\FreeStreamer\FSAudioStream.mm" />
+    <ClangCompile Include="..\..\FreeStreamer\FSPlayerViewController.m" />
+    <ClangCompile Include="..\..\FreeStreamer\FSPlaylistItem.m" />
+    <ClangCompile Include="..\..\FreeStreamer\FSPlaylistViewController.m" />
+    <ClangCompile Include="..\..\FreeStreamer\FSXMLHttpRequest.m" />
+    <ClangCompile Include="..\..\FreeStreamer\FSParsePlaylistFeedRequest.m" />
+    <ClInclude Include="..\..\FreeStreamer\iPonyRadio-Prefix.pch" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo57.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\en.lproj\InfoPlist.strings">
+      <VariantDir>en.lproj</VariantDir>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo72.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo114.png" />
+    <XibCompile Include="..\..\FreeStreamer\FSMainWindow.xib" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Default-568h@2x.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo50.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Default.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo144.png" />
+    <XibCompile Include="..\..\FreeStreamer\FSMainWindow-iPad.xib" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo76.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo152.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo110.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo58.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Default@2x.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Assets\Images\player-bg-bottom.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Assets\Images\shadow@2x.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Assets\Images\bottom-shadow.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Assets\Images\player-top-bg.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Assets\Images\button-pause.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Assets\Images\button-play.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo29.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo120.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Assets\Images\bottom-shadow@2x.png" />
+    <SBResourceCopy Include="..\..\FreeStreamer\Assets\Images\shadow.png" />
+    <SBResourceCopy Include="..\..\..\..\Downloads\iPRLogo\logo1024.png" />
+    <SBInfoPlistCopy Include="..\..\FreeStreamer\iPonyRadio-Info.plist">
+      <ExcludedFromBuild Condition="'$(Configuration)'=='Debug'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)'=='Release'">false</ExcludedFromBuild>
+      <VariableFile Condition="'$(Configuration)'=='Debug'">iPonyRadio-Debug-xcvars.txt</VariableFile>
+      <VariableFile Condition="'$(Configuration)'=='Release'">iPonyRadio-Release-xcvars.txt</VariableFile>
+    </SBInfoPlistCopy>
+    <Text Include="iPonyRadio-Debug-xcvars.txt" />
+    <Text Include="iPonyRadio-Release-xcvars.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.targets" />
+  </ImportGroup>
+</Project>

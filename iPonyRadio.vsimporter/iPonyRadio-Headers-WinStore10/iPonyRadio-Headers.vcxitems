@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsRootNamespace>iPonyRadio_Headers</ItemsRootNamespace>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <ItemsProjectGuid>{1FEDCC8F-8600-4180-9EE4-2A1D611A7FB5}</ItemsProjectGuid>
+    <SharedGUID>{85772782-C1C2-45DE-B039-E6F0CE9DDF31}</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MMSDK\MMAdView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MMSDK\MMInterstitial.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MMSDK\MMRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MMSDK\MMSDK.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\astreamer\audio_queue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\astreamer\audio_stream.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\astreamer\http_stream.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSAudioController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSAudioStream.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSPlayerViewController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSPlaylistItem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSPlaylistViewController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSAppDelegate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSXMLHttpRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSParsePlaylistFeedRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\iPonyRadio-Prefix.pch" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)platform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)putil.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)uchar.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ucnv.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ucnv_err.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)uconfig.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)uenum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)uiter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)umachine.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)urename.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ustring.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utf16.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utf8.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utf_old.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utypes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)uversion.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+</Project>

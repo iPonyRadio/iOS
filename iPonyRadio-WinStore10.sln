@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iPonyRadio", "iPonyRadio", "{F2B25EC6-9629-4688-B99D-15EC73763310}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iPonyRadio-Headers", "iPonyRadio.vsimporter\iPonyRadio-Headers-WinStore10\iPonyRadio-Headers.vcxitems", "{1FEDCC8F-8600-4180-9EE4-2A1D611A7FB5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iPonyRadio", "iPonyRadio.vsimporter\iPonyRadio-WinStore10\iPonyRadio.vcxproj", "{63DEB775-143B-4B1D-BEEF-9FDE000AF919}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		iPonyRadio.vsimporter\iPonyRadio-Headers-WinStore10\iPonyRadio-Headers.vcxitems*{1FEDCC8F-8600-4180-9EE4-2A1D611A7FB5}*SharedItemsImports = 9
+		iPonyRadio.vsimporter\iPonyRadio-Headers-WinStore10\iPonyRadio-Headers.vcxitems*{63DEB775-143B-4B1D-BEEF-9FDE000AF919}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63DEB775-143B-4B1D-BEEF-9FDE000AF919}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63DEB775-143B-4B1D-BEEF-9FDE000AF919}.Debug|Win32.Build.0 = Debug|Win32
+		{63DEB775-143B-4B1D-BEEF-9FDE000AF919}.Debug|Win32.Deploy.0 = Debug|Win32
+		{63DEB775-143B-4B1D-BEEF-9FDE000AF919}.Release|Win32.ActiveCfg = Release|Win32
+		{63DEB775-143B-4B1D-BEEF-9FDE000AF919}.Release|Win32.Build.0 = Release|Win32
+		{63DEB775-143B-4B1D-BEEF-9FDE000AF919}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FEDCC8F-8600-4180-9EE4-2A1D611A7FB5} = {F2B25EC6-9629-4688-B99D-15EC73763310}
+		{63DEB775-143B-4B1D-BEEF-9FDE000AF919} = {F2B25EC6-9629-4688-B99D-15EC73763310}
+	EndGlobalSection
+EndGlobal

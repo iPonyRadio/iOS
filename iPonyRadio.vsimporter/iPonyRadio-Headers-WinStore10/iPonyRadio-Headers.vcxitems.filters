@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FreeStreamer">
+      <UniqueIdentifier>{445890B9-8E7B-49FF-885C-D4A047780DFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeStreamer\Supporting Files">
+      <UniqueIdentifier>{37E6A3E6-D2C0-40EB-8B0E-329E3A11E9E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeStreamer\astreamer">
+      <UniqueIdentifier>{10E4B73B-44A3-4E74-9E4D-4C480B353565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMSDK">
+      <UniqueIdentifier>{F5D08ABD-D5D2-4C1F-AD55-53E32CF57D1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unicode">
+      <UniqueIdentifier>{2489efd9-6ada-4098-af91-6304712ea275}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MMSDK\MMAdView.h">
+      <Filter>MMSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MMSDK\MMInterstitial.h">
+      <Filter>MMSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MMSDK\MMRequest.h">
+      <Filter>MMSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MMSDK\MMSDK.h">
+      <Filter>MMSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\astreamer\audio_queue.h">
+      <Filter>FreeStreamer\astreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\astreamer\audio_stream.h">
+      <Filter>FreeStreamer\astreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\astreamer\http_stream.h">
+      <Filter>FreeStreamer\astreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSAudioController.h">
+      <Filter>FreeStreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSAudioStream.h">
+      <Filter>FreeStreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSPlayerViewController.h">
+      <Filter>FreeStreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSPlaylistItem.h">
+      <Filter>FreeStreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSPlaylistViewController.h">
+      <Filter>FreeStreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSAppDelegate.h">
+      <Filter>FreeStreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSXMLHttpRequest.h">
+      <Filter>FreeStreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\FSParsePlaylistFeedRequest.h">
+      <Filter>FreeStreamer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FreeStreamer\iPonyRadio-Prefix.pch">
+      <Filter>FreeStreamer\Supporting Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ucnv.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)platform.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)putil.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)uchar.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ucnv_err.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)uconfig.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)uenum.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)uiter.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)umachine.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)urename.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ustring.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utf.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utf16.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utf8.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utf_old.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utypes.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)uversion.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
